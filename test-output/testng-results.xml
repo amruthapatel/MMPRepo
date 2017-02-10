@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23761" started-at="2017-02-10T00:43:26Z" finished-at="2017-02-10T00:43:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23761" started-at="2017-02-10T00:43:26Z" finished-at="2017-02-10T00:43:49Z">
+      <class name="org.mmp.tests.VerifyPatientLogin">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.mmp.tests.VerifyPatientLogin@20e2cbe0]" name="setUp" is-config="true" duration-ms="8809" started-at="2017-02-09T16:43:26Z" finished-at="2017-02-09T16:43:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://96.84.175.78/MMP-Release2-Admin-Build.2.1.000/login.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logintoAdmin()[pri:0, instance:org.mmp.tests.VerifyPatientLogin@20e2cbe0]" name="logintoAdmin" duration-ms="1258" started-at="2017-02-09T16:43:35Z" finished-at="2017-02-09T16:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoAdmin -->
+        <test-method status="PASS" signature="searchPendingtoAccept()[pri:0, instance:org.mmp.tests.VerifyPatientLogin@20e2cbe0]" name="searchPendingtoAccept" duration-ms="13675" started-at="2017-02-09T16:43:36Z" finished-at="2017-02-09T16:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPendingtoAccept -->
+      </class> <!-- org.mmp.tests.VerifyPatientLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
